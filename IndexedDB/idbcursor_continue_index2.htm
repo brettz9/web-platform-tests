@@ -38,7 +38,7 @@
             assert_throws("DataError",
                 function() { cursor.continue(document); });
 
-            assert_true(cursor instanceof IDBCursorWithValue, "cursor");
+            assert_true(cursor instanceof IDBCursor, "cursor");
 
             t.done();
         });
