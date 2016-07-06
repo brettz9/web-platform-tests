@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBCursor.advance() - object store - throw TypeError';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

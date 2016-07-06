@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBFactory.open() - second open\'s transaction is available to get objectStores';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

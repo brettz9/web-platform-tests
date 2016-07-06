@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBObjectStore.add() - Add a record where a value being indexed does not meet the constraints of a valid key ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

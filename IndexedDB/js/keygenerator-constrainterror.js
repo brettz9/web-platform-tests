@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'Keygenerator ConstraintError when using same id as already generated';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

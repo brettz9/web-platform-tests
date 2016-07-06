@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBDatabase.createObjectStore() - attempt to create an object store with an invalid key path ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

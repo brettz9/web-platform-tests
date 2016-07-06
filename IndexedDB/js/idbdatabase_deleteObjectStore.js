@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBDatabase.deleteObjectStore() - object store\'s name is removed from database\'s list ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

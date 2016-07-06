@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBIndex.multiEntry - a 1000 entry multiEntry array';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

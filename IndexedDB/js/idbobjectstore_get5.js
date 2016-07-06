@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBObjectStore.get() - returns the record with the first key in the range ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

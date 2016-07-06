@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBDatabase.transaction() - If storeNames is an empty list, the implementation must throw a DOMException of type InvalidAccessError';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

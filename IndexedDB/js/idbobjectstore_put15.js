@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBObjectStore.put() - If the transaction this IDBObjectStore belongs to has its mode set to readonly, throw ReadOnlyError';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

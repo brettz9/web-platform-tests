@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBObjectStore.delete() - If the object store has been deleted, the implementation must throw a DOMException of type InvalidStateError';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

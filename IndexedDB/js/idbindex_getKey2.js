@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBIndex.getKey() - returns the record\'s primary key where the index contains duplicate values ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

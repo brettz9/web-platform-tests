@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBIndex.multiEntry: array keyPath with multiEntry';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

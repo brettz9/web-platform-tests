@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBIndex.openKeyCursor() - throw InvalidStateError on index deleted by aborted upgrade';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

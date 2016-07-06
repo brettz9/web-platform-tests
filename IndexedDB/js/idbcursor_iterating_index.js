@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBCursor.continue() - index - delete next element, and iterate to it';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

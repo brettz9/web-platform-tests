@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBCursor.continue() - index - attempt to iterate to the next record when the direction is set for the previous record';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

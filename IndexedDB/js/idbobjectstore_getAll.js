@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IndexedDB: Test IDBObjectStore.getAll.';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 

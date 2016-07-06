@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBFactory.open() - open database with a higher version than current';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

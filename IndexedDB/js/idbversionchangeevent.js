@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBVersionChangeEvent fired in upgradeneeded, versionchange and deleteDatabase';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

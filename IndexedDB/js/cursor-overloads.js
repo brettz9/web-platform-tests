@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'Validate the overloads of IDBObjectStore.openCursor(), IDBIndex.openCursor() and IDBIndex.openKeyCursor()';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

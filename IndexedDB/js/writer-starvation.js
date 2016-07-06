@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'Writer starvation';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

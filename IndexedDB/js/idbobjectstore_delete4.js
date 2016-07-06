@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBObjectStore.delete() - delete removes record (out-of-line keys) ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

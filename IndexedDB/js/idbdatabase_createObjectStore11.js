@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBDatabase.createObjectStore() - attempting to create an existing object store with a different keyPath throw ConstraintError ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

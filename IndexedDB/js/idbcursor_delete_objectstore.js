@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBCursor.delete() - object store - remove a record from the object store ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

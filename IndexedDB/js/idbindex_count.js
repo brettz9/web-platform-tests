@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBIndex.count() - returns the number of records in the index ';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

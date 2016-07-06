@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBFactory.open() - error in version change transaction aborts open';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

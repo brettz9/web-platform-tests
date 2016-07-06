@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBObjectStore.createIndex() - Event ordering for ConstraintError on request';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

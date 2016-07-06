@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBCursor.update() - index - attempt to modify a record when object store been deleted';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

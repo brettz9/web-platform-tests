@@ -1,5 +1,6 @@
 GLOBAL.window = GLOBAL;
 GLOBAL.self = GLOBAL;
+GLOBAL.document = {};
 
 const idb = require('indexeddbshim')();
 // const idb = require('.node_modules/indexeddbshim/dist/indexeddbshim-UnicodeIdentifiers-node');

@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBObjectStore.createIndex() - index can be valid keys';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

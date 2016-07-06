@@ -33,6 +33,7 @@ fs.readdir(dirPath, function(err, items) {
 
       // Build script content
       var scriptContent = "require('../node-indexeddbshim-test');\n";
+      scriptContent += "document.title = '" + $('title').text().replace(/'/g, "\\'") + "';\n";
       $('script[src]').each(function (script, item) {
         const src = $(this).attr('src');
         if (scriptCount === 3 && !supportAndTestHarnessScripts.includes(src)) {

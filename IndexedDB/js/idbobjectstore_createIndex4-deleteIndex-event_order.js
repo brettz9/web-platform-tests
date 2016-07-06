@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBObjectStore.createIndex() - Event ordering for a later deleted index';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');

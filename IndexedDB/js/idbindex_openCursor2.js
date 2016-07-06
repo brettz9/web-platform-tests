@@ -1,4 +1,5 @@
 require('../node-indexeddbshim-test');
+document.title = 'IDBIndex.openCursor() - throw TransactionInactiveError on aborted transaction';
 require('../../resources/testharness.js');
 require('../../resources/testharnessreport.js');
 require('../support.js');
