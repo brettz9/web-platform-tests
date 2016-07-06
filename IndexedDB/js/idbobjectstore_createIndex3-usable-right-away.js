@@ -1,3 +1,7 @@
+require('../node-indexeddbshim-test');
+require('../../resources/testharness.js');
+require('../../resources/testharnessreport.js');
+require('../support.js');
 
     var db, aborted,
       t = async_test(document.title, {timeout:19000})

@@ -1,3 +1,7 @@
+require('../node-indexeddbshim-test');
+require('../../resources/testharness.js');
+require('../../resources/testharnessreport.js');
+require('../support.js');
 
     // Transaction may fire window.onerror in some implementations.
     setup({allow_uncaught_exception:true});

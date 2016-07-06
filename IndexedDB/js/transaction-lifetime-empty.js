@@ -1,3 +1,7 @@
+require('../node-indexeddbshim-test');
+require('../../resources/testharness.js');
+require('../../resources/testharnessreport.js');
+require('../support.js');
 
 
 // Call with a test object and array of expected values. Returns a

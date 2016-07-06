@@ -1,3 +1,7 @@
+require('../node-indexeddbshim-test');
+require('../../resources/testharness.js');
+require('../../resources/testharnessreport.js');
+require('../support.js');
 
 
             // TypeError: bound requires more than 0 arguments

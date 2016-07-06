@@ -1,3 +1,7 @@
+require('../node-indexeddbshim-test');
+require('../../resources/testharness.js');
+require('../../resources/testharnessreport.js');
+require('../support.js');
 
 function recursive_value(desc, value) {
     var db, t = async_test(document.title + " - " + desc);

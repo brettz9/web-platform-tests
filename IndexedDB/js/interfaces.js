@@ -1,3 +1,8 @@
+require('../node-indexeddbshim-test');
+require('../../resources/testharness.js');
+require('../../resources/testharnessreport.js');
+require('../../resources/WebIDLParser.js');
+require('../../resources/idlharness.js');
 
 "use strict";
 setup(function() {

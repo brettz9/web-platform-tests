@@ -1,3 +1,6 @@
+require('../node-indexeddbshim-test');
+require('../../resources/testharness.js');
+require('../../resources/testharnessreport.js');
 
 
   test(function() {

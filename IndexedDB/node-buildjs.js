@@ -30,10 +30,9 @@ fs.readdir(dirPath, function(err, items) {
 
       // List files without standard 3 items
       var scriptCount = $('script[src]').length;
-      if (scriptCount !== 3) {
-//        console.log('Non-typical file for script src count ' + scriptCount +  ': ' + htmlFile);
-      }
 
+      // Build script content
+      var scriptContent = "require('../node-indexeddbshim-test');\n";
       $('script[src]').each(function (script, item) {
         const src = $(this).attr('src');
         if (scriptCount === 3 && !supportAndTestHarnessScripts.includes(src)) {
@@ -45,8 +44,13 @@ fs.readdir(dirPath, function(err, items) {
         else if ((scriptCount < 2 || scriptCount > 3) && !webIDLScripts.includes(src)) {
           console.log('Found non-typical script src: ' + src + ' in: ' + htmlFile);
         }
+        else {
+          scriptContent += "require('" + src.replace(/^\//, '../../').replace(/^support/, '../support') + "');\n";
+        }
       });
-      fs.writeFile(outputFile, $('script').text(), function(err) {
+      scriptContent += $('script').text();
+
+      fs.writeFile(outputFile, scriptContent, function(err) {
         ct++;
         if (err) {return console.log(err);}
         // console.log("The file " + outputFile + " was saved!");

@@ -1,3 +1,7 @@
+require('../node-indexeddbshim-test');
+require('../../resources/testharness.js');
+require('../../resources/testharnessreport.js');
+require('../support.js');
 
     var records = [ 1337, "Alice", "Bob", "Greg", "Åke", ["Anne"] ];
     var directions = ["next", "prev", "nextunique", "prevunique"];
