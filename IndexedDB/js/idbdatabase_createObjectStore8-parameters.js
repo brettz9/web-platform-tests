@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBObjectStoreParameters';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     function optionalParameters(desc, params) {
         var t = async_test(document.title + " - " + desc);

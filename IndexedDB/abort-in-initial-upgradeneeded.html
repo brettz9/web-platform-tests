@@ -1,12 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <!-- Submitted from TestTWF Paris -->
 <title>Test that an abort in the initial upgradeneeded sets version back to 0</title>
-<script src=/resources/testharness.js></script>
-<script src=/resources/testharnessreport.js></script>
-<script src=support.js></script>
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+<script src="support.js"></script>
 
 <script>
-
 var db, open_rq = createdb(async_test(), undefined, 2);
 
 open_rq.onupgradeneeded = function(e) {
@@ -32,4 +31,4 @@ open_rq.onerror = function(e) {
 }
 </script>
 
-<div id=log></div>
+<div id="log"></div>

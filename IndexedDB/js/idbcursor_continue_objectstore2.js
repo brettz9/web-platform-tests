@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBCursor.continue() - object store - attempt to pass a key parameter is not a valid key ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db,
       t = async_test(),

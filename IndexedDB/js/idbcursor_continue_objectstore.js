@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBCursor.continue() - object store - iterate to the next record';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db,
       count = 0,

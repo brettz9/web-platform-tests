@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBCursor direction - object store';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var records = [ "Alice", "Bob", "Greg" ];
     var directions = ["next", "prev", "nextunique", "prevunique"];

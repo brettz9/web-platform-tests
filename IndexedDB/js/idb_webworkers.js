@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IndexedDB inside of a WebWorker ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db, count = 0,
       t = async_test();

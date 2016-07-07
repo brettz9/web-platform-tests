@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IndexedDB: IDBTransaction.objectStoreNames attribute';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
 function with_stores_test(store_names, open_func, description) {

@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBCursor.continue() - index - attempt to pass a key parameter that is not a valid key';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
     var db,

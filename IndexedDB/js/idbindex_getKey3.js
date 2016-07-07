@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBIndex.getKey() - attempt to retrieve the primary key of a record that doesn\'t exist';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db,
       t = async_test();

@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Keypath';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     function keypath(keypath, objects, expected_keys, desc) {
         var db,

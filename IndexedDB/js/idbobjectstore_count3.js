@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBObjectStore.count() - returns the number of records that have keys with the key';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db
 

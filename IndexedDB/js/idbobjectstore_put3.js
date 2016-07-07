@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBObjectStore.put() - record with same key already exists ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db, success_event,
       t = async_test(),

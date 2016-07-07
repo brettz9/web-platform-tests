@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBObjectStore.createIndex() - attempt to create an index that requires unique values on an object store already contains duplicates ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db, aborted,
       t = async_test(),

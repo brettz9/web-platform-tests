@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBObjectStore.add() - autoIncrement and out-of-line keys ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db,
       t = async_test(),

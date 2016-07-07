@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBCursor.continue() - object store - attempt to iterate to the previous record when the direction is set for the next record';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db,
       t = async_test(),

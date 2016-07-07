@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Blocked event';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
     var db, db_got_versionchange, db2,

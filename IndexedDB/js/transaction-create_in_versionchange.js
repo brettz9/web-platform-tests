@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Attempt to create new transactions inside a versionchange transaction';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db, events = [],
         open_rq = createdb(async_test())

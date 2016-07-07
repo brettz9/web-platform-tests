@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBObjectStore.createIndex() - event order when unique constraint is triggered';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     // Transaction may fire window.onerror in some implementations.
     setup({allow_uncaught_exception:true});

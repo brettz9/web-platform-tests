@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBDatabase.close() - unblock the delete database request';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
 var db;

@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBObjectStore.createIndex() - Event ordering for ConstraintError on request';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     // Transaction may fire window.onerror in some implementations.
     setup({allow_uncaught_exception:true});

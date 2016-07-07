@@ -1,9 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IndexedDB IDL tests';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../../resources/WebIDLParser.js');
-require('../../resources/idlharness.js');
 
 "use strict";
 setup(function() {

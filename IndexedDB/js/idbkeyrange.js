@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBKeyRange Tests';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     // only
     test( function() {

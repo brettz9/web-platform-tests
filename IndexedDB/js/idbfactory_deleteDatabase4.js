@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Test events opening a second database when one connection is open already';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
     var t = async_test("Delete an existing database");

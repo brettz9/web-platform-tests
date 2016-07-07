@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Writer starvation';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db, read_request_count = 0, read_success_count = 0;
     var write_request_count = 0, write_success_count = 0;

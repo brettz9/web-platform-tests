@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBDatabase.createObjectStore() - create an object store with an unknown optional parameter ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
 var t = async_test(document.title, {timeout: 10000}),

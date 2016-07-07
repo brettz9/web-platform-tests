@@ -1,7 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBObjectStore.openKeyCursor()';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
 
 function store_test(func, name) {
     async_test(function(t) {

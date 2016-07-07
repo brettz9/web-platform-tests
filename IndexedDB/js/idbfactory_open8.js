@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBFactory.open() - error in version change transaction aborts open';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var open_rq = createdb(async_test(), undefined, 13);
     var did_upgrade = false;

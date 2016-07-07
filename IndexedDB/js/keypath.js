@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Keypath';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
     var global_db = createdb_for_multiple_tests();

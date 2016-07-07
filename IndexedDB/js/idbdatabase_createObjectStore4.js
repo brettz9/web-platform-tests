@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBDatabase.createObjectStore() - attempt to create an object store that already exists ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
 var t = async_test(),

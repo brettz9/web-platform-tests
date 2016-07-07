@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBIndex.get() - returns the record with the first key in the range ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db, t = async_test();
 

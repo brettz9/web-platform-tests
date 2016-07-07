@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Invalid key';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db        = createdb_for_multiple_tests(),
         // cache for ObjectStores

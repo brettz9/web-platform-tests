@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBFactory.open() - no version opens current database';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var open_rq = createdb(async_test(), undefined, 13);
     var did_upgrade = false;

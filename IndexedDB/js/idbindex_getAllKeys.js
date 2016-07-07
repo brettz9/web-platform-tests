@@ -1,7 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IndexedDB: Test IDBIndex.getAllKeys.';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
 
 setup({explicit_done: true});
 

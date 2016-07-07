@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Verify key sort order in an index is \'number < Date < DOMString\' ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db,
       d = new Date(),

@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Values';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 function value(value, _instanceof) {
     var t = async_test(document.title + " - " + _instanceof.name);

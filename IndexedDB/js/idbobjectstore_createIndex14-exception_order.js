@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IndexedDB: Exception Order of IDBObjectStore.createIndex()';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
 indexeddb_test(

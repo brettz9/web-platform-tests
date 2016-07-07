@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBIndex.getKey() - throw InvalidStateError when the index is deleted';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db,
         t = async_test();

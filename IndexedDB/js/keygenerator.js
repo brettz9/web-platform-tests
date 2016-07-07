@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Keygenerator';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     function keygenerator(objects, expected_keys, desc, func) {
         var db,

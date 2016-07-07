@@ -1,7 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBFactory.open() - errors in version argument';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
 
 function should_throw(val, name) {
     if (!name) {

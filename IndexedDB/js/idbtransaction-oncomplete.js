@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBTransaction - complete event';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db, store,
       t = async_test(document.title, {timeout: 10000}),

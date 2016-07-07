@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IndexedDB: Commit ordering of empty transactions';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
 // Call with a test object and array of expected values. Returns a

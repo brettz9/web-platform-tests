@@ -31,8 +31,24 @@ fs.readdir(dirPath, function(err, items) {
       // List files without standard 3 items
       var scriptCount = $('script[src]').length;
 
+      // Confirm there are no unexpected elements which should be handled in the test
+      // <(?!/?(script(>| src| type="text/javascript")|div( id="?log"?)?>|link|meta|!|title>|html|http|DOM|head>|body>| |=))
+      $('*').each(function (i, elem) {
+        if (!['html', 'head', 'body', 'meta', 'title', 'link', 'script', 'div', 'h1'].includes(elem.name)) {
+          console.log('Unexpected element: ' + elem.name);
+        }
+        const atts = Object.keys(elem.attribs);
+        if (atts.some((att) => {
+            return !['src', 'type', 'id', 'rel', 'charset', 'title', 'href', 'name', 'content'].includes(att);
+          })) {
+          console.log('Unrecognized attributes: ' + atts + ' on element: ' + elem.name);
+        }
+      });
+
       // Build script content
-      var scriptContent = "require('../node-indexeddbshim-test');\n";
+      var scriptContent = '';
+      // var scriptContent = "require('../node-indexeddbshim-test');\n";
+
       scriptContent += "document.title = '" + $('title').text().replace(/'/g, "\\'") + "';\n";
       $('script[src]').each(function (script, item) {
         const src = $(this).attr('src');
@@ -46,7 +62,7 @@ fs.readdir(dirPath, function(err, items) {
           console.log('Found non-typical script src: ' + src + ' in: ' + htmlFile);
         }
         else {
-          scriptContent += "require('" + src.replace(/^\//, '../../').replace(/^support/, '../support') + "');\n";
+          // scriptContent += "require('" + src.replace(/^\//, '../../').replace(/^support/, '../support') + "');\n";
         }
       });
       scriptContent += $('script').text();

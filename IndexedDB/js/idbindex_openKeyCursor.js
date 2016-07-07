@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBIndex.openKeyCursor() - throw DataError when using a invalid key';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db,
         t = async_test();

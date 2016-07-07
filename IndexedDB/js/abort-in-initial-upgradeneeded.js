@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Test that an abort in the initial upgradeneeded sets version back to 0';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
 var db, open_rq = createdb(async_test(), undefined, 2);

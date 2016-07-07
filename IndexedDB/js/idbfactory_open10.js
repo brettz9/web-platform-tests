@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBFactory.open() - error in upgradeneeded resets db';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db, db2;
     var open_rq = createdb(async_test(document.title, {timeout: 10000}), undefined, 9);

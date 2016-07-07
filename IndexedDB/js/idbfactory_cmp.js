@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBFactory.cmp() - compared keys return correct value';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     test(function() {
         var greater = window.indexedDB.cmp(2, 1);

@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBDatabase.transaction() - opening a transaction defaults to a read-only mode ';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 
 var db,

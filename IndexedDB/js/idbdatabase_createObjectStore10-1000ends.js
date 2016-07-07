@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBDatabase.createObjectStore() - create 1000 object stores, add one item and delete';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
 var db,
     t = async_test(document.title, {timeout: 600000}),

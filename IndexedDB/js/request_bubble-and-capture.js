@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Bubbling and capturing of request events';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var events = [];
 

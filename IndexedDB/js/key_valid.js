@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'Valid key';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     function valid_key(desc, key) {
         var db;

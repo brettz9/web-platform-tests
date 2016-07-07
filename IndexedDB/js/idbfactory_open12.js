@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'IDBFactory.open() - upgradeneeded gets VersionChangeEvent';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     var db;
     var open_rq = createdb(async_test(document.title, {timeout: 10000}), undefined, 9);

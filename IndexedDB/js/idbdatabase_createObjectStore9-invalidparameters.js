@@ -1,8 +1,4 @@
-require('../node-indexeddbshim-test');
 document.title = 'createObjectStore: Invalid optionalParameters';
-require('../../resources/testharness.js');
-require('../../resources/testharnessreport.js');
-require('../support.js');
 
     function invalid_optionalParameters(desc, params) {
         var t = async_test(document.title + " - " + desc);
